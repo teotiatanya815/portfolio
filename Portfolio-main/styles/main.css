@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  .navbar {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    font-weight: bolder;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+  #home {
+    background-image: url("../images/home-background.jpg");
+    width: 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(180deg, black, #bfbef8);
+  }
+  
+  #skills {
+    width: 100%;
+    background-image: linear-gradient(180deg, #bfbef8, white);
+  }
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+  }
